@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
-import Invierno from './Invierno.jpg';
+import Mov1 from './Mov1.jpg';
+import Mov2 from './Mov2.jpg';
+import Mov3 from './Mov3.jpg';
+import Mov4 from './Mov4.jpg';
 
 class MainCarrousel extends Component {
 	state = {
@@ -22,19 +25,19 @@ class MainCarrousel extends Component {
 					>
 						<div>
 							<p className="legend">PRIMAVERA</p>
-							<img src={Invierno} alt="Woolworths" />
+							<img src={Mov1} alt="Woolworths" />
 						</div>
 						<div>
 							<p className="legend">INVIERNO</p>
-							<img src={Invierno} alt="Zara Woman" />
+							<img src={Mov2} alt="Zara Woman" />
 						</div>
 						<div>
 							<p className="legend">VERANO</p>
-							<img src="https://i.imgur.com/BfDlSHt.png" alt="Banana Republic" />
+							<img src={Mov3} alt="Banana Republic" />
 						</div>
 						<div>
 							<p className="legend">OTOÑO</p>
-							<img src="https://i.imgur.com/NOrvITL.png" alt="Brooks Brothers" />
+							<img src={Mov4} alt="Brooks Brothers" />
 						</div>
 					</Carousel>
 				</div>

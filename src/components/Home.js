@@ -7,8 +7,13 @@ class Home extends Component {
 		return (
 			<div className="container-fluid" style={{ fontSize: 40 }}>
 				AMUÉBLATE
-				<Subtitle />
-				<MainCarousel />
+				<h5>Vive con color</h5>
+				<h2>
+					<Subtitle />
+				</h2>
+				<h2>
+					<MainCarousel />
+				</h2>
 			</div>
 		);
 	}
