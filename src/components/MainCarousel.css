@@ -1,0 +1,46 @@
+.carousel {
+	position: relative;
+	top: 25px;
+	left: 0px;
+	width: 100%;
+	margin: 15px 0px 0px;
+}
+
+.carousel .slide .legend {
+	background: transparent;
+	opacity: 1;
+	position: absolute;
+	top: -20px;
+	left: 50px;
+	width: 250px;
+	margin: 0px;
+	padding: 0 0 30 0px;
+	font-size: 48px;
+	text-align: left;
+	color: white;
+	font-weight: 800;
+}
+
+.changeBackground:hover {
+	background: black;
+	cursor: pointer;
+	color: white;
+}
+
+.selector {
+	font-size: 10px;
+	padding: 10px;
+	margin: 15px;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+	.carousel {
+		width: 100%;
+		left: 0%;
+	}
+}
